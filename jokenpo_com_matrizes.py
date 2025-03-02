@@ -20,7 +20,7 @@ def play():
     # Testa se a opção recebida é valida
     try:
         # Tenta transformar a opção do usuario em um indice
-        player = int(player)
+        player = abs(int(player))
         player_choice = choices[player]
 
         # Gera um valor aleatório para o Bot
